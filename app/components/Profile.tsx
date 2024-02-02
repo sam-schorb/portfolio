@@ -16,7 +16,7 @@ export default function Profile() {
                 <h1 className="text-6xl text-customWhite">Hi! I&apos;m 
                 <br/>
                 <span className="font-bold text-textPink">Sam Schorb</span></h1>
-                <h2 className="text-3xl font-semibold text-customWhite mt-16 lg:mt-32">A Bit About Me</h2>
+                <h2 className="text-3xl font-semibold text-customWhite mt-16 lg:mt-60">A Bit About Me</h2>
                 <p className="text-lg text-gray-400 mt-4">
                     As a Full-Stack Developer, my programming journey began 5 years ago, and the self-directed learning continues every day.
                     <br/><br/>

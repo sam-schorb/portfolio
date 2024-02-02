@@ -45,10 +45,10 @@ const MainContent: React.FC<MainContentProps> = ({ aboutRef, experienceRef, stac
             <div className="xl:max-w-6xl max-w-full mx-[10%] xl:mx-[10%]">
             <div><HeaderBar scrollToSection={scrollToSection}/></div>
           <div ref={aboutRef} id="about" className="pt-16 md:pt-40 pb-40"><Profile /></div>
-          <div ref={experienceRef} id="experience" className="py-40"><Experience /></div>
-          <div ref={stackRef} id="stack" className="py-40"><Stack /></div>
-          <div ref={projectsRef} id="projects" className="py-40"><Projects /></div>
-          <div ref={contactRef} id="contact" className="py-40"><Contact /></div>
+          <div ref={experienceRef} id="experience" className="pt-16 pb-16"><Experience /></div>
+          <div ref={stackRef} id="stack" className="pt-16 pb-16"><Stack /></div>
+          <div ref={projectsRef} id="projects" className="pt-16 pb-16"><Projects /></div>
+          <div ref={contactRef} id="contact" className="pt-16 pb-16"><Contact /></div>
           <div className=" py-40"><LinksBlock scrollToSection={scrollToSection} /></div>
         </div>
       </div>

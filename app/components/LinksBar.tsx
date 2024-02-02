@@ -42,7 +42,8 @@ const LinksBar: React.FC<LinksBarProps> = ({ scrollToSection }) => {
     return (
         <div className='hidden xl:block' >
         <div className=" fixed top-0 left-24 h-full w-80 bg-[rgba(143,143,143,0.05)] p-5  border-r border-fadeGray flex flex-col items-center space-y-10">
-            <img src="/headshot5.jpg" alt="Sam Schorb" className="rounded-full mt-8" style={{ width: '120px', height: '120px', borderRadius: '50%', objectFit: 'cover' }} />
+            <img src="/headshot5.jpg" alt="Sam Schorb" className="rounded-full mt-4" style={{ width: '120px', height: '120px', borderRadius: '50%', objectFit: 'cover' }} />
+
             <div className='p-4'>
                 <h2 className="text-customWhite font-semibold text-xl text-center">Sam Schorb</h2>
                 <span className="text-center text-mediumGray text-lg">Full Stack Developer</span>
@@ -52,7 +53,7 @@ const LinksBar: React.FC<LinksBarProps> = ({ scrollToSection }) => {
                 {renderIcon(AiOutlineGithub, 'github', 'https://github.com/sam-schorb')}
                 {renderIcon(AiOutlineGlobal, 'homepage', 'https://www.iimaginary.com/')}
             </div>
-            <p className="text-mediumGray pb-2 text-center text-md">
+            <p className="text-mediumGray pb-2 text-center text-sm">
                 Innovative Full Stack Developer and self-taught engineer with 4 years of expertise, specializing in React. With a background in teaching and music production, my approach is collaborative and continuously developing, ready to grow with a dynamic tech team. </p>
                 <div className="flex flex-col pt-8 space-y-4 w-full">
                 <a href="/CV-Sam-Schorb.pdf" download className="block w-full">
