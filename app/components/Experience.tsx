@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import ExperienceSingle from './ExperienceSingle';
-import experienceData from '../data/ExperienceData';
+import experienceData from '../data/experienceData';
 
 const Experience: React.FC = () => {
   const [heights, setHeights] = useState<number[]>([]);
