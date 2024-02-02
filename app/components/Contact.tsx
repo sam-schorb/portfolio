@@ -43,7 +43,7 @@ export default function Contact() {
   return (
     <div>
       <h2 className="text-3xl text-customWhite font-semibold">Want to get in touch?</h2>
-      <p className="text-xl text-mediumGray mt-4 mb-8">Let's build something amazing together.</p>
+      <p className="text-xl text-mediumGray mt-4 mb-8">Let&apos;s build something amazing together.</p>
 
       <form onSubmit={handleSubmit}>
         <div className="grid grid-cols-2 gap-4 mb-4">
