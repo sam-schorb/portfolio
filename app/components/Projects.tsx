@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import ProjectSingle from './ProjectSingle';
-import projectData from '../data/ProjectData';
+import projectData from '../data/projectData';
 
 const Projects: React.FC = () => {
   const [hoveredProject, setHoveredProject] = useState<string | null>(null);
