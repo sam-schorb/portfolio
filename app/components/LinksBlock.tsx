@@ -50,7 +50,7 @@ const LinksBlock: React.FC<LinksBlockProps> = ({ scrollToSection }) => {
             <div className="flex p-4 mt-10 space-x-8">
                 {renderIcon(AiOutlineLinkedin, 'linkedin', 'https://www.linkedin.com/in/sam-schorb')}
                 {renderIcon(AiOutlineGithub, 'github', 'https://github.com/sam-schorb')}
-                {renderIcon(AiOutlineGlobal, 'homepage', 'https://www.iimaginary.com/')}
+                {renderIcon(AiOutlineGlobal, 'blog', 'https://www.iimaginary.com/')}
             </div>
             <p className="text-mediumGray pb-2 px-12 text-center text-md">
                 Innovative Full Stack Developer and self-taught engineer with 4 years of expertise, specializing in React. With a background in teaching and music production, my approach is collaborative and continuously developing, ready to grow with a dynamic tech team. </p>

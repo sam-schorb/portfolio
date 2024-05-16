@@ -2,6 +2,12 @@
 
 const projectData = [
     {
+      link: "https://github.com/sam-schorb/typesetter",
+      src: "/typesetterScreen.png",
+      title: "Typesetter",
+      description: "This typesetter was built as part of an interview process. It is a sophisticated tool designed to typeset a plaintext file into a novel-formatted PDF. The application takes a raw text file and intelligently processes the content to create a professionally styled book layout. It automatically detects chapter breaks, applies appropriate formatting, and handles typography details such as justification, line spacing, and paragraph indentation. One of the key features of this typesetter is its ability to create a visually pleasing and reader-friendly layout. It carefully considers the placement of text on each page, ensuring that there are no awkward line breaks or orphaned words. The application also incorporates stylistic elements, such as capitalizing chapter titles and adding elegant page numbers, to enhance the overall presentation of the book. By automating the typesetting process, this tool streamlines the workflow of converting a plain text manuscript into a polished, print-ready PDF. It combines the power of advanced text processing algorithms with the principles of professional book design, resulting in a high-quality output that rivals traditionally typeset novels."
+    },
+    {
       link: "https://raincloud.iimaginary.com/",
       src: "/raincloudScreen.png",
       title: "Raincloud",

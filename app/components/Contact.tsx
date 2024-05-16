@@ -22,7 +22,7 @@ export default function Contact() {
       subject: formData.subject,
       message: formData.message
     };
-    const publicKey = 'kkYNXQRrZkQTw_tOV'; // Your EmailJS public key
+    const publicKey = 'kkYNXQRrZkQTw_tOV'; //  EmailJS public key
 
 
     try {

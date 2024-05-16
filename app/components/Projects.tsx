@@ -17,7 +17,7 @@ const Projects: React.FC = () => {
           <ProjectSingle
             key={project.title}
             {...project}
-            hoveredProject={hoveredProject} // Pass the name of the hovered project
+            hoveredProject={hoveredProject} 
             onMouseEnter={() => setHoveredProject(project.title)}
             onMouseLeave={() => setHoveredProject(null)}
           />

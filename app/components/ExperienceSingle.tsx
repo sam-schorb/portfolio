@@ -38,7 +38,6 @@ const ExperienceSingle: React.FC<ExperienceSingleProps> = ({
   return (
     <div ref={ref} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className="relative pl-16 " style={style}>
       <div className="absolute left-0 top-2 ">
-        {/* Change circle color based on hover state */}
         <div className={`h-6 w-6 rounded-full ${isHovered ? 'bg-litPink' : 'bg-textPink'}`} />
         {!isLastItem && (
           <div 

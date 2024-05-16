@@ -46,7 +46,6 @@ const IconBar: React.FC<IconBarProps & { activeSection: string }> = ({ scrollToS
     const selectedClasses = isSelected ? "bg-customWhite text-darkGray z-10" : "text-mediumGray";
 
     useEffect(() => {
-      // Use type assertion to ensure activeSection is treated as keyof IconLabels
       const sectionKey = activeSection as keyof IconLabels;
       if (Object.keys(iconLabels).includes(activeSection)) {
         setSelectedIcon(sectionKey);

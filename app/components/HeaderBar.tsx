@@ -27,20 +27,17 @@ interface HeaderBarProps {
 const HeaderBar: React.FC<HeaderBarProps> = ({ scrollToSection }) => {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Toggle the open state of the header bar
   const toggleOpen = () => setIsOpen(!isOpen);
 
-  // Close the header bar when the screen size is medium or larger
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth >= 768) { // Tailwind's 'md' breakpoint
+      if (window.innerWidth >= 768) { 
         setIsOpen(false);
       }
     };
 
     window.addEventListener('resize', handleResize);
 
-    // Cleanup the event listener
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 

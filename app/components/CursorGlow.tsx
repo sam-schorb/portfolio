@@ -22,14 +22,14 @@ const CursorGlow: React.FC = () => {
     <>
       <div
         style={{
-          position: "fixed", // Change to 'fixed' positioning
+          position: "fixed",
           left: cursorPos.x,
           top: cursorPos.y,
           width: "0",
           height: "0",
           borderRadius: "50%",
           boxShadow: "0 0 100px 100px rgba(255, 255, 255, 0.01)",
-          pointerEvents: "none" as React.CSSProperties['pointerEvents'], // Cast to PointerEvents type
+          pointerEvents: "none" as React.CSSProperties['pointerEvents'], 
           zIndex: 9999,
         }}
       />
@@ -42,7 +42,7 @@ const CursorGlow: React.FC = () => {
           height: "0",
           borderRadius: "50%",
           boxShadow: "0 0 250px 250px rgba(255, 255, 255, 0.05)",
-          pointerEvents: "none" as React.CSSProperties['pointerEvents'], // Cast to PointerEvents type
+          pointerEvents: "none" as React.CSSProperties['pointerEvents'], 
           zIndex: 9999,
         }}
       />
@@ -56,7 +56,7 @@ const CursorGlow: React.FC = () => {
           height: "0",
           borderRadius: "50%",
           boxShadow: "0 0 250px 250px rgba(255, 255, 255, 0.05)",
-          pointerEvents: "none" as React.CSSProperties['pointerEvents'], // Cast to PointerEvents type
+          pointerEvents: "none" as React.CSSProperties['pointerEvents'],
           zIndex: 9999,
         }}
       />
@@ -70,7 +70,7 @@ const CursorGlow: React.FC = () => {
           height: "0",
           borderRadius: "50%",
           boxShadow: "0 0 250px 250px rgba(255, 255, 255, 0.05)",
-          pointerEvents: "none" as React.CSSProperties['pointerEvents'], // Cast to PointerEvents type
+          pointerEvents: "none" as React.CSSProperties['pointerEvents'], 
           zIndex: 9999,
         }}
       />
