@@ -6,6 +6,8 @@ import React from 'react'; // Import statement for JSX syntax support
 const stackUrls: { [key: string]: string } = {
   'JavaScript': 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
   'TypeScript': 'https://www.typescriptlang.org/',
+  'HuggingFace': 'https://huggingface.co/iimaginary',
+  'SciKit Learn': 'https://scikit-learn.org/stable/',
   'HTML5': 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
   'CSS3': 'https://developer.mozilla.org/en-US/docs/Web/CSS',
   'Python': 'https://www.python.org/',
@@ -53,8 +55,8 @@ const StackItem = ({ stackName }: { stackName: string }) => {
 export default function Stack() {
   // List of programming languages, frameworks, software and applications, and third-party services
   const programmingLanguages = ['JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Python', 'C++'];
-  const frameworksAndLibraries = ['React.js', 'Next.js', 'Tailwind CSS', 'Jest', 'ESLint', 'Prettier', 'Express', 'Node.js', 'NexusUI', 'Interact.js'];
-  const softwareAndApplications = ['Git', 'Node.js', 'Visual Studio Code', 'MongoDB', 'npm', 'PostgreSQL', 'Photoshop', 'Illustrator', 'GIMP'];
+  const frameworksAndLibraries = ['React.js', 'Next.js', 'Tailwind CSS', 'Jest', 'SciKit Learn', 'ESLint', 'Prettier', 'Express', 'Node.js', 'NexusUI', 'Interact.js'];
+  const softwareAndApplications = ['Git', 'Node.js', 'Visual Studio Code', 'MongoDB', 'npm', 'HuggingFace', 'PostgreSQL', 'Photoshop', 'Illustrator', 'GIMP'];
   const thirdPartyServices = ['Github', 'Vercel', 'Heroku', 'Wordpress', 'Mailjet'];
 
   const renderStackSection = (title: string, stack: string[]) => (
