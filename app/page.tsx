@@ -62,16 +62,19 @@ export default function Home() {
     };
   }, [activeSection]);
 
+  useEffect(() => {
+    document.title = 'Sam Schorb';
+  }, []);
+
   return (
     <React.StrictMode>
       <div className="min-h-screen flex">
         <Head>
-          <title>Sam Schorb - Full Stack Developer</title>
-          <link rel="icon" href="/clamicon1.png" />
+          <title>Sam Schorb</title>
         </Head>
         <div className="relative w-full">
           <IconBar scrollToSection={scrollToSection} activeSection={activeSection} />
-          <LinksBar scrollToSection={scrollToSection}/>
+          <LinksBar scrollToSection={scrollToSection} />
           <MainContent
             aboutRef={aboutRef}
             experienceRef={experienceRef}
