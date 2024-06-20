@@ -18,7 +18,7 @@ export default function Profile() {
                 <span className="font-bold text-textPink">Sam Schorb</span></h1>
                 <h2 className="text-3xl font-semibold text-customWhite mt-16 lg:mt-60">A Bit About Me</h2>
                 <p className="text-lg text-gray-400 mt-4">
-                    I thrive on technically challenging Full-Stack projects - always finding creative uses for new technological advancements. My typical stack is NextJS, Node and MongoDB - deployed using Vercel. Whether it&apos;s motivating and teaching young people or building inspiring artistic tools, creative problem-solving is at the heart of everything I do.
+                    I thrive on technically challenging Full-Stack projects - always finding creative uses for new technological advancements. My typical stack is NextJS, Node and MongoDB - deployed using Vercel. Whether motivating and teaching young people or building inspiring artistic tools, creative problem-solving is at the heart of everything I do.
                     <br/><br/>
                     My expertise includes integrating AI into applications; designing innovative and customisable user interfaces; PCB design and manufacturing and writing advanced algorithms for digital signal processing. I have experience implementing a wide range of APIs into applications. My machine and deep learning skills include fine-tuning base models and utilising data science techniques for problem solving.
                     <br/><br/>
