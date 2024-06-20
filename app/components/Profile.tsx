@@ -18,11 +18,9 @@ export default function Profile() {
                 <span className="font-bold text-textPink">Sam Schorb</span></h1>
                 <h2 className="text-3xl font-semibold text-customWhite mt-16 lg:mt-60">A Bit About Me</h2>
                 <p className="text-lg text-gray-400 mt-4">
-                    As a Full-Stack Developer, my programming journey began 5 years ago, and the self-directed learning continues every day, recently delving into the fascinating world of machine learning.
+                    I thrive on technically challenging Full-Stack projects - always finding creative uses for new technological advancements. My typical stack is NextJS, Node and MongoDB - deployed using Vercel. Whether it&apos;s motivating and teaching young people or building inspiring artistic tools, creative problem-solving is at the heart of everything I do.
                     <br/><br/>
-                    I am passionate about developing interesting and memorable experiences that captivate users. I believe that the best way to engage people is by stimulating their imaginations. Whether it&apos;s motivating and teaching young people or building inspiring artistic tools, creative problem-solving is at the heart of everything I do.
-                    <br/><br/>
-                    After initially learning programming through Digital Signal Processing, I soon taught myself to build innovative musical instruments on embedded systems. My enthusiasm for sharing creative tools with a wider audience led me to Full-Stack Web Development. I am constantly finding inventive uses for every new tool I learn and have recently focussed on integrating machine learning into my projects.
+                    My expertise includes integrating AI into applications; designing innovative and customisable user interfaces; PCB design and manufacturing and writing advanced algorithms for digital signal processing. I have experience implementing a wide range of APIs into applications. My machine and deep learning skills include fine-tuning base models and utilising data science techniques for problem solving.
                     <br/><br/>
                     Outside the IDE, I love playing with my kids, cooking, hiking, and indulging my passion for music—I&apos;ve recently managed recording labels, scored a film, and performed live-coded music at the Glastonbury Festival.
                     <br/><br/>
