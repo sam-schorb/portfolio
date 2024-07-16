@@ -2,6 +2,12 @@
 
 const projectData = [
     {
+      link: "https://visions.iimaginary.com/",
+      src: "/visionsLogo.png",
+      title: "Visions",
+      description: "Visions is an innovative platform designed to democratize generative art creation through artificial intelligence. It enables users to craft and customize visual sketches using simple text descriptions, without requiring coding expertise. By leveraging advanced AI models like GPT-4 and Google Gemini, Visions transforms natural language inputs into executable code for generating unique artworks. The platform features an intuitive interface where users can dynamically adjust parameters via auto-generated sliders, fine-tuning aspects such as colors, sizes, and speeds in real-time. For more advanced users, Visions offers an interactive code editor with live preview functionality, allowing direct manipulation of the underlying code. The application includes a flexible API management system, enabling seamless integration with various AI service providers. Visions aims to bridge the gap between natural language and visual creativity, making generative art accessible to both novices and experienced creators alike."
+    },
+    {
       link: "https://github.com/sam-schorb/typesetter",
       src: "/typesetterScreen.png",
       title: "Typesetter",

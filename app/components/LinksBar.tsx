@@ -54,7 +54,7 @@ const LinksBar: React.FC<LinksBarProps> = ({ scrollToSection }) => {
                 {renderIcon(AiOutlineGlobal, 'blog', 'https://www.iimaginary.com/')}
             </div>
             <p className="text-mediumGray pb-2 text-center text-sm">
-                Innovative Full Stack Developer and self-taught engineer with 4 years of expertise, specializing in React. With a background in teaching and music production, my approach is innovative and self-directed, ready to grow with a dynamic tech team. </p>
+                Innovative Full Stack Developer and self-taught engineer with 4 years of expertise, specializing in NextJS & React. With a background in teaching and music production, my approach is innovative and self-directed, ready to grow with a dynamic tech team. </p>
                 <div className="flex flex-col pt-8 space-y-4 w-full">
                 <a href="/CV-Sam-Schorb.pdf" download className="block w-full">
                     <button 
