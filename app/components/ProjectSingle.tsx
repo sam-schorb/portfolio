@@ -1,4 +1,5 @@
-'use client'
+'use client';
+import Image from 'next/image';
 import React from 'react';
 
 interface ProjectSingleProps {
@@ -12,15 +13,22 @@ interface ProjectSingleProps {
 }
 
 const ProjectSingle: React.FC<ProjectSingleProps> = ({
-  link, src, title, description, hoveredProject, onMouseEnter, onMouseLeave
+  link,
+  src,
+  title,
+  description,
+  hoveredProject,
+  onMouseEnter,
+  onMouseLeave,
 }) => {
-
   const isHovered = title === hoveredProject;
   const applyMasking = hoveredProject !== null && !isHovered;
 
-  const projectClass = isHovered ? "bg-fadeGray border-shadowGray border-textPink" : "border-transparent";
-  const titleClass = isHovered ? "text-textPink" : "text-customWhite";
-  const descriptionClass = isHovered ? "text-mediumGray" : "text-mediumGray";
+  const projectClass = isHovered
+    ? 'bg-fadeGray border-shadowGray border-textPink'
+    : 'border-transparent';
+  const titleClass = isHovered ? 'text-textPink' : 'text-customWhite';
+  const descriptionClass = isHovered ? 'text-mediumGray' : 'text-mediumGray';
 
   return (
     <div
@@ -30,11 +38,19 @@ const ProjectSingle: React.FC<ProjectSingleProps> = ({
     >
       <div className="md:mr-6  md:w-40 w-full mb-8 md:mb-0 flex-none">
         <a href={link} target="_blank" rel="noopener noreferrer">
-          <img
+          <Image
             alt={title}
             src={src}
-            className={`rounded-md transition-transform duration-300 ${isHovered ? "scale-110" : ""}`}
-            style={{ height: 'auto', objectFit: 'cover', transformOrigin: 'top' }}
+            width={1024} // Set an appropriate max width
+            height={768} // Set an appropriate height
+            className={`rounded-md transition-transform duration-300 ${
+              isHovered ? 'scale-110' : ''
+            }`}
+            style={{
+              objectFit: 'cover',
+              transformOrigin: 'top',
+              height: 'auto',
+            }}
           />
         </a>
       </div>
